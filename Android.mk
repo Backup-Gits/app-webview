@@ -7,7 +7,7 @@ LOCAL_MODULE := BromiteWebView
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MULTILIB := both
 LOCAL_OVERRIDES_PACKAGES := SystemWebView
-LOCAL_PRIVILEGED_MODULE := true
+LOCAL_PRIVILEGED_MODULE := false
 
 ifeq ($(TARGET_ARCH), arm)
 LOCAL_SRC_FILES := prebuilt/arm_SystemWebView.apk
